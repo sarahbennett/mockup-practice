@@ -1,0 +1,129 @@
+html {
+  font-size: 16px;
+  font-family: "Calibri Light", 'Calibri', sans-serif;
+}
+
+.header {
+  background-color: #000;
+  margin: 0;
+  padding: .5rem 0 0 0;
+}
+
+.header span {
+  position: absolute;
+  right: 1rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  color: #fff;
+  margin: 2rem 5.5rem 0 1.5rem;
+  padding: 0;
+}
+
+.header h3 {
+  color: grey;
+  margin: 0 5rem 1rem 1.5rem;
+  padding: 0;
+}
+
+.main-nav ul {
+  background: #B5B5B5;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: .5rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: space-around;
+  list-style:none;
+}
+
+.main-nav a {
+  color: purple;
+  margin: 0 1rem;
+}
+
+.link {
+  color:red;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.article {
+  margin: 0 1rem;
+  min-width: 50%;
+}
+
+.aside {
+  margin: 1rem 1rem;
+  text-align: center;
+  border: 1px solid black;
+  min-width: 40%;
+}
+
+.aside img {
+  height: auto;
+  width: auto;
+  max-width: 80%;
+  max-height: 80%;
+  padding: 0;
+}
+
+.aside h3 {
+  font-size: 1.5rem;
+  margin: .5rem;
+}
+
+.aside h4 {
+  font-size: 1.25rem;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-content {
+  margin-left: .1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.sidebar-content p {
+  display: inline-block;
+  text-align: left;
+  max-width: 60%;
+  margin: .2rem 1rem .2rem .3rem;
+  padding: .2rem;
+}
+
+.sidebar-content span {
+  display: inline-block;
+  position: absolute;
+  right: 1rem;
+  padding: .5rem .5rem 1rem 0;
+  margin: 0 .2rem 0 0;
+  max-width: 30%;
+}
+
+.footer {
+  background-color: #000;
+  margin: 1rem 0 0 0;
+  padding: .5rem 0 .5rem 0;
+}
+
+.footer p {
+  color: #fff;
+  margin: .9rem;
+  line-height: .5rem;
+}
+
+.footer div {
+  display: block;
+  text-align: center;
+}
