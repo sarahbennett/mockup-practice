@@ -29,7 +29,7 @@ html {
 
 .main-nav ul {
   background: #B5B5B5;
-  font-size: 1.2rem;
+  font-size: 1.05rem;
   margin: 0;
   padding: .5rem 1rem;
   display: flex;
@@ -54,6 +54,15 @@ html {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+.gallery {
+  margin: .25rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .article {
@@ -87,6 +96,40 @@ html {
   padding: 0;
 }
 
+#cssSlider {
+  max-width: 800px;
+	overflow: hidden;
+	border: .25rem solid #000;
+}
+
+#sliderImages {
+	width : 4000px;
+	height: 300px;
+	overflow: hidden;
+	animation: slide 16s infinite;
+	-moz-animation: slide 16s infinite;
+	-webkit-animation: slide 16s infinite;
+	-o-animation: slide 16s infinite;
+}
+
+#sliderImages img {
+	float: left;
+}
+
+@keyframes slide{
+	0%{margin-left: 0px;}
+	17%{margin-left: 0px;}
+	20%{margin-left: -800px;}
+	37%{margin-left: -800px;}
+	40%{margin-left: -1600px;}
+	57%{margin-left: -1600px;}
+	60%{margin-left: -2400px;}
+	77%{margin-left: -2400px;}
+	80%{margin-left: -3200px;}
+	97%{margin-left: -3200px;}
+	100%{margin-left: 0px;}
+}
+
 .sidebar-content {
   margin-left: .1rem;
   display: flex;
@@ -109,6 +152,46 @@ html {
   padding: .5rem .5rem 1rem 0;
   margin: 0 .2rem 0 0;
   max-width: 30%;
+}
+
+#rates-list {
+  width: auto;
+  margin: .5rem;
+  text-align: left;
+}
+#rates-list ol { font-style:italic; font-family: 'Calibri'; font-size:24px; font-weight: bold; color: red;  }
+#rates-list ol li { }
+#rates-list ol li p { padding:8px; font-weight: normal;  font-family:'Calibri'; font-size: 1rem; color:#000; border-left: 1px solid #999;}
+#rates-list ol li p em { display:block; font-weight: bold;}
+#rates-list ol li p strong {display:block; font-size:20px; font-weight: bold; color: red;}
+
+.card {
+  border: 1px solid #000;
+  margin: 2rem 3rem;
+  position: relative;
+  width: 13rem;
+}
+
+.card-hero {
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.card-book img{
+  position: absolute;
+  right: 1rem;
+  top: 7rem;
+  border-radius: 50%;
+  max-width: 30%;
+}
+
+.card-headline {
+  padding: 0 .5rem;
+}
+
+.card-copy {
+  padding: 0 .5rem;
 }
 
 .footer {
